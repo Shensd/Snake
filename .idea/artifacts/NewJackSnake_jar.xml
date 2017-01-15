@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NewJackSnake:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NewJackSnake_jar</output-path>
+    <root id="archive" name="NewJackSnake.jar">
+      <element id="module-output" name="JackSnake" />
+    </root>
+  </artifact>
+</component>
