@@ -22,7 +22,7 @@ public class Window extends JFrame implements KeyListener{
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
-        setTitle("Jack Snake");
+        setTitle("Snake");
         setResizable(false);
         addKeyListener(this);
         add(panel);

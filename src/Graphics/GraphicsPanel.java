@@ -42,6 +42,16 @@ public class GraphicsPanel extends JPanel {
         g.dispose();
     }
 
+    public void drawWin() {
+        Graphics g = img.getGraphics();
+        g.setColor(Color.BLACK);
+        g.setFont(new Font(Font.MONOSPACED, Font.BOLD, 32));
+        g.drawString("YOU WIN", 250, 235);
+        g.setFont(new Font(Font.MONOSPACED, Font.BOLD, 16));
+        g.drawString("Press space to restart", 210, 260);
+        g.dispose();
+    }
+
     public void draw() {
         Graphics g = img.getGraphics();
         //player

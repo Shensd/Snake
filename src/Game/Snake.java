@@ -22,11 +22,11 @@ public class Snake {
             }
             ind++;
         }
-        if(x < 0 || x > 39
-                || y < 0 || y > 29) {
-            return true;
-        }
-        return false;
+        return (x < 0 || x > 39 || y < 0 || y > 29);
+    }
+
+    public boolean checkWin() {
+        return (body.size() == 1199);
     }
 
     public void update(int direction) {

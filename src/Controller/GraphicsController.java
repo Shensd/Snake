@@ -43,6 +43,12 @@ public class GraphicsController {
             c.setGameOver(true);
             return true;
         }
+        if(player.checkWin()) {
+            panel.drawWin();
+            panel.repaint();
+            c.setGameOver(true);
+            return true;
+        }
         panel.repaint();
         panel.draw();
 
