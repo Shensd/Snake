@@ -2,6 +2,8 @@
 
 Snake written in Java, it's pretty neat.
 
+![Game Play Image](http://i.imgur.com/jl2bjrZ.png "Intense Game Play")
+
 ## How to Play
  * WASD or arrow keys as controls
  * Collect points to increase the length of your snake
